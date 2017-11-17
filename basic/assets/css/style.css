@@ -1,0 +1,36 @@
+div {
+    margin: 0px;
+    padding: 0px;
+}
+section.card {
+    border: 1px solid #000;
+    width: 300px
+    /* border-radius: 10px; */
+}
+
+section.card .card-header {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #95F3FA; 
+}
+
+.card-image {
+    height: 399px;
+    width: 100%;
+}
+
+.card-image-caption img {
+    width:100%;
+}
+
+.card-image-caption .card-caption {
+    background-color: black;
+    color: white;
+    text-align: center; 
+}
+
+p.card-description {
+    background-color: #eee;
+    margin:0px;
+    padding:20px 40px;
+}

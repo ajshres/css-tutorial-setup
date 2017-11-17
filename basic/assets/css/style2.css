@@ -1,0 +1,52 @@
+div,section,p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    border: 1px solid #000;
+    width: 500px;
+}
+
+.card-image-caption, .card-header-descritpion {
+    display: inline-block;
+    border: 1px solid #000;
+}
+.card-image {
+    height: 399px;
+}
+.card-image-caption,img {
+    width: 300px;
+}
+.card-image-caption{
+    float: left;
+}
+
+.card-header-descritpion {
+    width: 196px;
+    height: 421px;
+    float: right;
+}
+.card-caption{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    height: 12px;
+    text-align: center;
+}
+.card-header {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+}
+.card-description {
+    padding: 10px;
+    background-color: pink;
+    /* color:white; */
+    height: 363px;
+}
+.clearfix{
+    clear:both;
+}
